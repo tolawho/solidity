@@ -5,8 +5,8 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 ## Basic
 
 - [x] [Hello World](./hello-world/)
-- [x] First App (Counter)
-- [] Primitive Data Types
+- [x] [First App (Counter)](./counter/)
+- [x] [Primitive Data Types](./primitive-data-types/)
 - [] Variables
 - [] Constants
 - [] Immutable
