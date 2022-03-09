@@ -11,15 +11,15 @@ async function main() {
   //
   // If this script is run directly using `node` you may want to call compile
   // manually to make sure everything is compiled
-  // await hre.run('compile');
+  await hre.run("compile");
 
   // We get the contract to deploy
-  const ConstImmut = await hre.ethers.getContractFactory("ConstImmut");
-  const constImmut = await ConstImmut.deploy(123456);
+  const ReadWriteState = await hre.ethers.getContractFactory("ReadWriteState");
+  const readWriteState = await ReadWriteState.deploy(123456);
 
-  await constImmut.deployed();
+  await readWriteState.deployed();
 
-  console.log("ConstImmut deployed to:", constImmut.address);
+  console.log("ReadWriteState deployed to:", readWriteState.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
