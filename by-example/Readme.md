@@ -10,7 +10,7 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [x] [Variables](./variables/)
 - [x] [Constants](./const-immut/)
 - [x] [Immutable](./const-immut/)
-- [] Reading and Writing to a State Variable
+- [x] [Reading and Writing to a State Variable](./read-write-states/)
 - [] Ether and Wei
 - [] Gas and Gas Price
 - [] If / Else
