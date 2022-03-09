@@ -7,7 +7,7 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [x] [Hello World](./hello-world/)
 - [x] [First App (Counter)](./counter/)
 - [x] [Primitive Data Types](./primitive-data-types/)
-- [] Variables
+- [x] [Variables](./variables/)
 - [] Constants
 - [] Immutable
 - [] Reading and Writing to a State Variable
