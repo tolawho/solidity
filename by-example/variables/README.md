@@ -1,8 +1,14 @@
-# Basic Sample Hardhat Project
+# Variables
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+There are three types of variables in solidity
 
-Try running some of the following tasks:
+- Local:
+  - declared inside a function
+  - not stored on the blockchain
+- State:
+  - declared outside of function
+  - stored on the blockchain
+- Global: provides information about the blockchain
 
 ```shell
 npx hardhat accounts
@@ -10,6 +16,6 @@ npx hardhat compile
 npx hardhat clean
 npx hardhat test
 npx hardhat node
-node scripts/sample-script.js
+node scripts/deploy.js
 npx hardhat help
 ```

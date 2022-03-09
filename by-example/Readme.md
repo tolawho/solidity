@@ -8,8 +8,8 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [x] [First App (Counter)](./counter/)
 - [x] [Primitive Data Types](./primitive-data-types/)
 - [x] [Variables](./variables/)
-- [] Constants
-- [] Immutable
+- [x] [Constants](./const-immut/)
+- [x] [Immutable](./const-immut/)
 - [] Reading and Writing to a State Variable
 - [] Ether and Wei
 - [] Gas and Gas Price
