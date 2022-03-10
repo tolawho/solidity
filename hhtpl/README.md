@@ -8,9 +8,13 @@
 
 ## Install dependency
 
-`yarn install`
+`yarn` or `yarn install`
 
 ### Create .env file from env.example
+
+```
+$ cp .env.example .env
+```
 
 Edit private key and Bscscan API
 Private is used for deployments on different network
