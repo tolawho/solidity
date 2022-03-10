@@ -1,7 +1,5 @@
 {
   "name": "hardhat-temple",
-  "version": "1.0.0",
-  "description": "Hardhat project template",
   "license": "MIT",
   "scripts": {
     "compile": "hardhat compile",

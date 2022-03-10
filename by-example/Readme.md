@@ -13,8 +13,8 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [x] [Reading and Writing to a State Variable](./read-write-states/)
 - [x] [Ether and Wei](./units-gas/)
 - [x] [Gas and Gas Price](./units-gas/)
-- [] If / Else
-- [] For and While Loop
+- [x] [If / Else](./condition-loop/)
+- [x] [For and While Loop](./condition-loop/)
 - [] Mapping
 - [] Array
 - [] Enum
