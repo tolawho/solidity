@@ -1,9 +1,9 @@
 {
-  "name": "hardhat-temple",
+  "name": "units-gas",
   "license": "MIT",
   "scripts": {
     "compile": "hardhat compile",
-    "deploy": "hardhat run scripts/deploy.ts --network",
+    "deploy": "hardhat run scripts/deploy.js --network",
     "test": "hardhat test"
   },
   "dependencies": {

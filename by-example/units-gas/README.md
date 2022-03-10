@@ -1,4 +1,21 @@
-# Hardhat Project Template
+# Ether, Wei, Gas and Gas Fee
+
+## Desc
+
+Transaction are paid with ether
+
+- Ether,Wei
+
+  - `1 ether` equal to `10^18 wei`
+  - `1 wei` equal to `1`
+
+- Gas,Gas Fee
+  - `transaction(txt) fee` = `spent gas` \* `gas price`
+  - `gas` is a unit of computation
+  - `gas spent` is total `gas` used in a `txt`
+  - `gas price` is how much `ether` you willing to pay per `gas`
+  - `txt` with higher `gas` price have higher priority to be included in a block
+  - `unspent gas` will be refunded
 
 ## Requirements
 

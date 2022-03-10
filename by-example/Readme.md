@@ -11,8 +11,8 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [x] [Constants](./const-immut/)
 - [x] [Immutable](./const-immut/)
 - [x] [Reading and Writing to a State Variable](./read-write-states/)
-- [] Ether and Wei
-- [] Gas and Gas Price
+- [x] [Ether and Wei](./units-gas/)
+- [x] [Gas and Gas Price](./units-gas/)
 - [] If / Else
 - [] For and While Loop
 - [] Mapping
