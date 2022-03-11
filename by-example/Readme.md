@@ -15,10 +15,10 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [x] [Gas and Gas Price](./units-gas/)
 - [x] [If / Else](./condition-loop/)
 - [x] [For and While Loop](./condition-loop/)
-- [] Mapping
-- [] Array
-- [] Enum
-- [] Structs
+- [x] [Mapping](./maes/)
+- [x] [Array](./maes/)
+- [x] [Enum](./maes/)
+- [x] [Structs](./maes/)
 - [] Data Locations - Storage, Memory and - Calldata
 - [] Function
 - [] View and Pure Functions
