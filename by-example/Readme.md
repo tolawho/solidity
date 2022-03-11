@@ -19,7 +19,7 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [x] [Array](./maes/)
 - [x] [Enum](./maes/)
 - [x] [Structs](./maes/)
-- [] Data Locations - Storage, Memory and - Calldata
+- [x] [Data Locations - Storage, Memory and - Calldata](./data-locations/)
 - [] Function
 - [] View and Pure Functions
 - [] Error
