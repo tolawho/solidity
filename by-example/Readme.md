@@ -24,7 +24,7 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [x] [View and Pure Functions(typescript)](./fnc-pure-view-error/)
 - [x] [Error(typescript)](./fnc-pure-view-error/)
 - [x] [Function Modifier](./fnc-pure-view-error/)
-- [] Events
+- [x] [Events](./fnc-pure-view-error/)
 - [] Constructor
 - [] Inheritance
 - [] Shadowing Inherited State Variables

@@ -42,7 +42,7 @@ describe("FuncPureViewError", () => {
         );
       });
 
-      it("Assert should revert txt if total X + Y less than 15", async () => {
+      it("Should revert txt if total X + Y less than 15", async () => {
         try {
           await contract.fnc1(11, 2);
           expect.fail();
@@ -51,6 +51,7 @@ describe("FuncPureViewError", () => {
         }
       });
     });
+
     describe("Modifier", async () => {
       it("Should be possible change the owner", async () => {
         await contract.changeOwner(newOwner.address);
@@ -76,6 +77,17 @@ describe("FuncPureViewError", () => {
             "No reentrancy"
           );
         }, 1000);
+      });
+    });
+
+    describe("Events", async () => {
+      it("Should be emit the event", async () => {
+        await expect(contract.testEvent())
+          .to.emit(contract, "Log")
+          .withArgs(deployer.address, "Hello World!")
+          .and.to.emit(contract, "Log")
+          .withArgs("Hello EVM!")
+          .and.to.emit(contract, "AnotherLog");
       });
     });
   });

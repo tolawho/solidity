@@ -7,6 +7,9 @@ contract FuncPureViewError {
     uint256 public x;
     bool public locked;
 
+    event Log(address indexed _sender, string text);
+    event AnotherLog();
+
     modifier onlyOwner() {
         require(msg.sender == owner, "Not owner");
         _;
@@ -82,5 +85,11 @@ contract FuncPureViewError {
         if (d > 1) {
             decrement(d - 1);
         }
+    }
+
+    function testEvent() public {
+        emit Log(msg.sender, "Hello World!");
+        emit Log(msg.sender, "Hello EVM!");
+        emit AnotherLog();
     }
 }
