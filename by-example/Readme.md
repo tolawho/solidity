@@ -1,6 +1,6 @@
 # Learn Solidity by Example
 
-Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by example and using [hardhat](https://hardhat.org/)
+Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by example and using [hardhat](https://hardhat.org/) and write testing for all.
 
 ## Basic
 
@@ -20,9 +20,9 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [x] [Enum](./maes/)
 - [x] [Structs](./maes/)
 - [x] [Data Locations - Storage, Memory and - Calldata](./data-locations/)
-- [] Function
-- [] View and Pure Functions
-- [] Error
+- [x] [Function(typescript)](./fnc-pure-view-error/)
+- [x] [View and Pure Functions(typescript)](./fnc-pure-view-error/)
+- [x] [Error(typescript)](./fnc-pure-view-error/)
 - [] Function Modifier
 - [] Events
 - [] Constructor
