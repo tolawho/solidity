@@ -86,7 +86,7 @@ describe("FuncPureViewError", () => {
           .to.emit(contract, "Log")
           .withArgs(deployer.address, "Hello World!")
           .and.to.emit(contract, "Log")
-          .withArgs("Hello EVM!")
+          .withArgs(deployer.address, "Hello EVM!")
           .and.to.emit(contract, "AnotherLog");
       });
     });
