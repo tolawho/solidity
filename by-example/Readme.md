@@ -23,7 +23,7 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [x] [Function(typescript)](./fnc-pure-view-error/)
 - [x] [View and Pure Functions(typescript)](./fnc-pure-view-error/)
 - [x] [Error(typescript)](./fnc-pure-view-error/)
-- [] Function Modifier
+- [x] [Function Modifier](./fnc-pure-view-error/)
 - [] Events
 - [] Constructor
 - [] Inheritance

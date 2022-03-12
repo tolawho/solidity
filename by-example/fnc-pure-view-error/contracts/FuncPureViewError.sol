@@ -3,9 +3,31 @@ pragma solidity ^0.8.12;
 
 contract FuncPureViewError {
     uint256 public initial;
+    address public owner;
+    uint256 public x;
+    bool public locked;
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Not owner");
+        _;
+    }
+
+    modifier validAddress(address _addr) {
+        require(_addr != address(0), "Not valid address");
+        _;
+    }
+
+    modifier noReentrancy() {
+        require(!locked, "No reentrancy");
+        locked = !locked;
+        _;
+        locked = !locked;
+    }
 
     constructor() {
         initial = 10;
+        x = 1000;
+        owner = msg.sender;
     }
 
     // using view to promise not modify state variable
@@ -33,7 +55,7 @@ contract FuncPureViewError {
     }
 
     // using pure to promise not modify and read state variable
-    function _calc1(uint256 x, uint256 y)
+    function _calc1(uint256 _x, uint256 _y)
         private
         pure
         returns (
@@ -42,8 +64,23 @@ contract FuncPureViewError {
             string memory
         )
     {
-        uint256 total = x + y;
-        bool xLessthan = x < y;
+        uint256 total = _x + _y;
+        bool xLessthan = _x < _y;
         return (total, xLessthan, xLessthan ? "X<Y" : "X>=Y");
+    }
+
+    function changeOwner(address _newOwner)
+        public
+        onlyOwner
+        validAddress(_newOwner)
+    {
+        owner = _newOwner;
+    }
+
+    function decrement(uint256 d) public noReentrancy {
+        x -= d;
+        if (d > 1) {
+            decrement(d - 1);
+        }
     }
 }
