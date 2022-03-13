@@ -25,11 +25,11 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [x] [Error(typescript)](./fnc-pure-view-error/)
 - [x] [Function Modifier](./fnc-pure-view-error/)
 - [x] [Events](./fnc-pure-view-error/)
-- [] Constructor
-- [] Inheritance
-- [] Shadowing Inherited State Variables
-- [] Calling Parent Contracts
-- [] Visibility
+- [x] [Constructor](./inheritance/)
+- [x] [Inheritance](./inheritance/)
+- [x] [Shadowing Inherited State Variables](./inheritance/)
+- [x] [Calling Parent Contracts](./inheritance/)
+- [x] [Visibility](./inheritance/)
 - [] Interface
 - [] Payable
 - [] Sending Ether - Transfer, Send, and Call
