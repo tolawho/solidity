@@ -1,10 +1,11 @@
 import { expect } from "chai";
 import { ethers } from "hardhat";
+import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
 
 import { Greeter } from "../typechain";
 
 describe("Greeter",  () => {
-  let deployer, contract: Greeter;
+  let deployer, user: SignerWithAddress, contract: Greeter;
   beforeEach(async () => {
     [deployer] = await ethers.getSigners();
     const Contract = await ethers.getContractFactory(

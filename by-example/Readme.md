@@ -30,7 +30,7 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [x] [Shadowing Inherited State Variables](./inheritance/)
 - [x] [Calling Parent Contracts](./inheritance/)
 - [x] [Visibility](./inheritance/)
-- [] Interface
+- [x] [Interface](./interface/)
 - [] Payable
 - [] Sending Ether - Transfer, Send, and Call
 - [] Fallback
