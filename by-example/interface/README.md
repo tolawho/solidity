@@ -1,4 +1,10 @@
-# Hardhat Project Template
+# Interface
+
+- can't declare constructor
+- can't declare state variables
+- can't inheritance from other interface
+- can't have any function implemented
+- all function must be declared as external
 
 ## Requirements
 
@@ -21,31 +27,40 @@ $ cp .env.example .env
 Try running some of the following tasks:
 
 ```shell
-## Compile
-`yarn compile`
-## Test
-`yarn test`
-## Deploy
-`yarn deploy <network>`
+// Compile
+$ yarn compile
+
+// Test
+$ yarn test
+
+// Deploy
+$ yarn deploy <network>
+
+// Verify
+$ yarn verify <network> <contract_address>
+
+// Accounts
+$ yarn accounts
+
+// Clean
+$ yarn clean
+
 ```
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
+```
 npx hardhat node
 npx hardhat help
-REPORT_GAS=true npx hardhat test
+REPORT*GAS=true npx hardhat test
 npx hardhat coverage
 npx hardhat run scripts/deploy.ts
 TS_NODE_FILES=true npx ts-node scripts/deploy.ts
-npx eslint '**/*.{js,ts}'
+npx eslint '**/\*.{js,ts}'
 npx eslint '**/*.{js,ts}' --fix
-npx prettier '**/*.{json,sol,md}' --check
-npx prettier '**/*.{json,sol,md}' --write
-npx solhint 'contracts/**/*.sol'
-npx solhint 'contracts/**/*.sol' --fix
+npx prettier '\*\*/_.{json,sol,md}' --check
+npx prettier '**/\*.{json,sol,md}' --write
+npx solhint 'contracts/**/_.sol'
+npx solhint 'contracts/\*\*/\_.sol' --fix
+
 ```
 
 # Etherscan verification
@@ -53,12 +68,6 @@ npx solhint 'contracts/**/*.sol' --fix
 To try out Etherscan verification, you first need to deploy a contract to an Ethereum network that's supported by Etherscan, such as Ropsten.
 
 In this project, copy the .env.example file to a file named .env, and then edit it to fill in the details. Enter your Etherscan API key, your Ropsten node URL (eg from Alchemy), and the private key of the account which will send the deployment transaction. With a valid .env file in place, first deploy your contract:
-
-```shell
-hardhat run --network ropsten scripts/sample-script.ts
-```
-
-Then, copy the deployment address and paste it in to replace `DEPLOYED_CONTRACT_ADDRESS` in this command:
 
 ```shell
 npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS "Hello, Hardhat!"
