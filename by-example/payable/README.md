@@ -1,4 +1,6 @@
-# Hardhat Project Template
+# Payable
+
+- functions and addresses declared as payable can receive ether into the contract
 
 ## Requirements
 
@@ -38,6 +40,7 @@ $ yarn accounts
 
 // Clean
 $ yarn clean
+
 
 // Generate Typechain
 $ yarn tc
