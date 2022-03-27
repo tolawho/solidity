@@ -11,7 +11,8 @@
 Contract must have at least one function below to receive ether:
 
 - receive() external payable
-- fallback() external payable
+- fallback() external payable. this function does not take any arguments and does not return anything.
+  The gas limit is 2300 when called by transfer or send
 
 ## Requirements
 

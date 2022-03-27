@@ -18,11 +18,19 @@ contract SendEther {
 }
 
 contract ReceiveEther {
-	event Log(uint gas);
-
 	constructor() payable {}
 
 	receive() external payable {}
+
+	fallback() external payable {}
+
+	function getBalance() public view returns (uint) {
+		return address(this).balance;
+	}
+}
+
+contract NoReceiveFunc {
+	event Log(uint gas);
 
 	fallback() external payable {
 		emit Log(gasleft());
@@ -32,14 +40,3 @@ contract ReceiveEther {
 		return address(this).balance;
 	}
 }
-/**
-      it("Should be emit the event", async () => {
-        await expect(contract.testEvent())
-          .to.emit(contract, "Log")
-          .withArgs(deployer.address, "Hello World!")
-          .and.to.emit(contract, "Log")
-          .withArgs(deployer.address, "Hello EVM!")
-          .and.to.emit(contract, "AnotherLog");
-      });
-
- */
