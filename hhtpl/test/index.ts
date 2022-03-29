@@ -5,9 +5,9 @@ import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
 import { Greeter } from "../typechain";
 
 describe("Greeter",  () => {
-  let deployer: SignerWithAddress, user: SignerWithAddress, contract: Greeter;
+  let deployer: SignerWithAddress, caller: SignerWithAddress, contract: Greeter;
   beforeEach(async () => {
-    [deployer] = await ethers.getSigners();
+    [deployer, caller] = await ethers.getSigners();
     const Contract = await ethers.getContractFactory(
       "Greeter",
       deployer
@@ -16,7 +16,7 @@ describe("Greeter",  () => {
     await contract.deployed();
   });
   describe("TestCase", async () => {
-    it("Should return the new greeting once it's changed", async () => {});
+    it("Should ...", async () => {});
   });
 
 });

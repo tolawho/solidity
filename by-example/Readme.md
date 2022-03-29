@@ -35,8 +35,8 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [x] [Sending Ether - Transfer, Send, and Call](./transfer-send-call/)
 - [x] [Fallback](./transfer-send-call/)
 - [x] [Call](./call/)
-- [] Delegatecall
-- [] Function Selector
+- [x] [Delegatecall](./delegatecall/)
+- [x] [Function Selector](./delegatecall/)
 - [] Calling Other Contract
 - [] Creating Contracts from a Contract
 - [] Try / Catch
