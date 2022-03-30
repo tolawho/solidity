@@ -41,9 +41,9 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [x] [Try / Catch](./calling-other-contract/)
 - [x] [Import](./calling-other-contract/)
 - [x] [Library](./calling-other-contract/)
-- [] ABI Decode
-- [] Hashing with Keccak256
-- [] Verifying Signature
+- [x] [ABI Decode](./abi_and_hash/)
+- [x] [Hashing with Keccak256](./abi_and_hash/)
+- [x] Verifying Signature
 
 ## Applications
 
