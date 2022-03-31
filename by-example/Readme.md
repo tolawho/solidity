@@ -47,7 +47,7 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 
 ## Applications
 
-- [] Ether Wallet
+- [x] [Ether Wallet](./applications/ether-wallet/)
 - [] Multi Sig Wallet
 - [] Merkle Tree
 - [] Iterable Mapping
