@@ -51,7 +51,7 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [] Multi Sig Wallet
 - [] Merkle Tree
 - [] Iterable Mapping
-- [] ERC20
+- [x] [ERC20](./applications/erc20/)
 - [] ERC721
 - [] Precompute Contract Address with Create2
 - [] Minimal Proxy Contract
