@@ -1,0 +1,51 @@
+{
+    "name": "Vespa Px150e",
+    "description": "Vespa Px150e model",
+    "image": "https://ipfs.io/ipfs/QmTezXnDQLt6PCE69eCKvuNPkNEHE8hx5skGXutpX8VqTY",
+    "attributes": [
+        {
+            "trait_type": "Weight",
+            "value": "106kg"
+        },
+        {
+            "trait_type": "Capacity",
+            "value": "150cc"
+        },
+        {
+            "trait_type": "Date of Manufacture",
+            "display_type": "date",
+            "value": 1546360800
+        },
+        {
+            "trait_type": "Color",
+            "value": "Silver"
+        },
+        {
+            "trait_type": "Top speed",
+            "value": "55mph"
+        },
+        {
+            "trait_type": "Seat height",
+            "value": "805mm"
+        },
+        {
+            "trait_type": "EngineSingle ",
+            "value": "Single cylinder, two stroke, air cooled"
+        },
+        {
+            "display_type": "boost_number",
+            "trait_type": "Aqua Power",
+            "value": 40
+        },
+        {
+            "display_type": "boost_percentage",
+            "trait_type": "Stamina Increase",
+            "value": 10
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Generation",
+            "value": 2
+        }
+    ]
+}
