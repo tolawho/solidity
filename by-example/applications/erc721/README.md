@@ -1,4 +1,17 @@
-# Hardhat Project Template
+# NFT - ERC721
+
+## References
+
+- [EIP-721](https://eips.ethereum.org/EIPS/eip-721)
+  : IERC721, IERC165, IERC721Metadata, IERC721Receiver
+
+- [OpenSea Metadata Standards](https://docs.opensea.io/docs/metadata-standards)
+
+## Results
+
+[Smart Contract](https://mumbai.polygonscan.com/address/0xdf90c8dc881827240b7b524493341ea497c373d6)
+
+[First NFT](https://testnets.opensea.io/assets/mumbai/0xdf90c8dc881827240b7b524493341ea497c373d6/1)
 
 ## Requirements
 
@@ -31,7 +44,17 @@ $ yarn test
 $ yarn deploy <network>
 
 // Verify
-$ yarn verify <network> <contract_address>
+$ yarn verify <network> <contract_address> <initial-args>
+
+```
+
+Example verify
+
+```
+$ yarn verify mumbai 0xdf90c8dc881827240b7b524493341ea497c373d6 "NFT Collectible" "NFTC"
+```
+
+```
 
 // Accounts
 $ yarn accounts
@@ -70,7 +93,7 @@ To try out Etherscan verification, you first need to deploy a contract to an Eth
 In this project, copy the .env.example file to a file named .env, and then edit it to fill in the details. Enter your Etherscan API key, your Ropsten node URL (eg from Alchemy), and the private key of the account which will send the deployment transaction. With a valid .env file in place, first deploy your contract:
 
 ```shell
-npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS "Hello, Hardhat!"
+npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS "NFT Collectible" "NFTC"
 ```
 
 # Performance optimizations

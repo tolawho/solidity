@@ -52,7 +52,7 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [] Merkle Tree
 - [] Iterable Mapping
 - [x] [ERC20](./applications/erc20/)
-- [] ERC721
+- [x] [ERC721](./applications/erc721/)
 - [] Precompute Contract Address with Create2
 - [] Minimal Proxy Contract
 - [] Upgradeable Proxy

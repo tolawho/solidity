@@ -1,29 +1,19 @@
-// We require the Hardhat Runtime Environment explicitly here. This is optional
-// but useful for running the script in a standalone fashion through `node <script>`.
-//
-// When running the script with `npx hardhat run <script>` you'll find the Hardhat
-// Runtime Environment's members available in the global scope.
 import { ethers } from "hardhat";
 
 async function main() {
-  // Hardhat always runs the compile task when running scripts with its command
-  // line interface.
-  //
-  // If this script is run directly using `node` you may want to call compile
-  // manually to make sure everything is compiled
-  // await hre.run('compile');
+  const NftCollectible = await ethers.getContractFactory("NftCollectible");
+  const nftCollectible = await NftCollectible.deploy("NFT Collectible", "NFTC");
 
-  // We get the contract to deploy
-  const Greeter = await ethers.getContractFactory("Greeter");
-  const greeter = await Greeter.deploy("Hello, Hardhat!");
+  await nftCollectible.deployed();
 
-  await greeter.deployed();
+  console.log("NftCollectible deployed to:", nftCollectible.address);
 
-  console.log("Greeter deployed to:", greeter.address);
+  await nftCollectible.mint(
+    "https://ipfs.io/ipfs/QmPrM1wLq1JAWjn1twKpFMyKopX9FA68562Re3jF4ZKUnd"
+  );
+  console.log("Nft successfully minted");
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
 main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
