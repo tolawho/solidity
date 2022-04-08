@@ -1,0 +1,95 @@
+{
+    "name": "OZ #1",
+    "description": "The NFT minted using ERC721 Openzeppelin",
+    "image": "https://ipfs.io/ipfs/QmSuP22EU3N7VngVL5GtsoCmGCZk2Qo9aWQqGXxBXjcFwt",
+    "attributes": [
+        {
+            "trait_type": "Aura",
+            "value": "None"
+        },
+        {
+            "trait_type": "Background",
+            "value": "Star Fuschia"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Light"
+        },
+        {
+            "trait_type": "Detail",
+            "value": "Cheek Hardware"
+        },
+        {
+            "trait_type": "Eye Color",
+            "value": "Purple"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "None"
+        },
+        {
+            "trait_type": "Face Accessory",
+            "value": "None"
+        },
+        {
+            "trait_type": "Facial Expression",
+            "value": "Smile"
+        },
+        {
+            "trait_type": "Hair Color",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Hairstyle",
+            "value": "Asymmetrical Cut"
+        },
+        {
+            "trait_type": "Head Accessory",
+            "value": "None"
+        },
+        {
+            "trait_type": "Imprint",
+            "value": "None"
+        },
+        {
+            "trait_type": "Other Accessory",
+            "value": "None"
+        },
+        {
+            "trait_type": "Outerwear",
+            "value": "None"
+        },
+        {
+            "trait_type": "Overhead",
+            "value": "None"
+        },
+        {
+            "trait_type": "Pet",
+            "value": "Squirrel Monkey"
+        },
+        {
+            "trait_type": "Top",
+            "value": "Bustier Gold"
+        },
+        {
+            "trait_type": "Birthday",
+            "display_type": "date",
+            "value": 1649382461
+        },
+        {
+            "display_type": "boost_number",
+            "trait_type": "Aqua Power",
+            "value": 40
+        },
+        {
+            "display_type": "boost_percentage",
+            "trait_type": "Stamina Increase",
+            "value": 10
+        },
+        {
+            "display_type": "number",
+            "trait_type": "Generation",
+            "value": 1
+        }
+    ]
+}
