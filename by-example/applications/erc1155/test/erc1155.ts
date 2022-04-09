@@ -11,8 +11,8 @@ describe("ERC721", () => {
     const WOP = await ethers.getContractFactory("WorldOfPolygon", deployer);
     wop = await WOP.deploy(
       "WorldOfPolygon",
-      "WoP",
-      "https://ipfs.io/ipfs/QmVVDWVmNBrgJMwaYmATqBjqbPe9iD1iZzzs91d5khyHCm/"
+      "WOPO",
+      "https://gateway.pinata.cloud/ipfs/QmXomabbQxf7cD25r1rdBxepPwi8Gx7k8DDafzrXS8RFiN/"
     );
     await wop.deployed();
 
@@ -28,6 +28,7 @@ describe("ERC721", () => {
     await wop.mint(5).then(async () => console.log(await wop.uri(8)));
     await wop.mint(1).then(async () => console.log(await wop.uri(9)));
     await wop.mint(1).then(async () => console.log(await wop.uri(10)));
+    await wop.mint(1).then(async () => console.log(await wop.uri(11)));
   });
   describe("TestCase", async () => {
     it("Should ...", async () => {});

@@ -1,7 +1,7 @@
 {
-    "name": "WoP #6",
-    "description": "World of Polygon - WoP #6",
-    "image": "https://gateway.pinata.cloud/ipfs/Qmd1FYKRJnELykjeDPLYMtesLf7VzAnkEXhdvLNQsbfzQh/6.png",
+    "name": "WoP #11",
+    "description": "World of Polygon - WoP #11",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmd1FYKRJnELykjeDPLYMtesLf7VzAnkEXhdvLNQsbfzQh/11.png",
     "attributes": [
         {
             "trait_type": "Aura",
@@ -9,11 +9,11 @@
         },
         {
             "trait_type": "Background",
-            "value": "Star Fuschia"
+            "value": "Paint Gold"
         },
         {
             "trait_type": "Body",
-            "value": "Dark"
+            "value": "Pale"
         },
         {
             "trait_type": "Detail",
@@ -21,7 +21,7 @@
         },
         {
             "trait_type": "Eye Color",
-            "value": "Green"
+            "value": "Red"
         },
         {
             "trait_type": "Eyewear",
@@ -29,7 +29,7 @@
         },
         {
             "trait_type": "Face Accessory",
-            "value": "Nose Ring"
+            "value": "None"
         },
         {
             "trait_type": "Facial Expression",
@@ -37,7 +37,7 @@
         },
         {
             "trait_type": "Hair Color",
-            "value": "Pink"
+            "value": "None"
         },
         {
             "trait_type": "Hairstyle",
@@ -45,11 +45,11 @@
         },
         {
             "trait_type": "Head Accessory",
-            "value": "None"
+            "value": "Cat Ears"
         },
         {
             "trait_type": "Imprint",
-            "value": "Hold"
+            "value": "None"
         },
         {
             "trait_type": "Other Accessory",
@@ -69,7 +69,7 @@
         },
         {
             "trait_type": "Top",
-            "value": "Long TS Orange"
+            "value": "Bralette"
         }
     ]
 }
