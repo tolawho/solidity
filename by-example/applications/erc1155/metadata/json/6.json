@@ -1,0 +1,75 @@
+{
+    "name": "WoP #6",
+    "description": "World of Polygon - WoP #6",
+    "image": "https://ipfs.io/ipfs/QmbEZW6wWJUiRq49DYWW4mckwZb79rc1PiAqHKHFKCAptq/6.png",
+    "attributes": [
+        {
+            "trait_type": "Aura",
+            "value": "None"
+        },
+        {
+            "trait_type": "Background",
+            "value": "Star Fuschia"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Dark"
+        },
+        {
+            "trait_type": "Detail",
+            "value": "Neck Hardware"
+        },
+        {
+            "trait_type": "Eye Color",
+            "value": "Green"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "None"
+        },
+        {
+            "trait_type": "Face Accessory",
+            "value": "Nose Ring"
+        },
+        {
+            "trait_type": "Facial Expression",
+            "value": "Wink"
+        },
+        {
+            "trait_type": "Hair Color",
+            "value": "Pink"
+        },
+        {
+            "trait_type": "Hairstyle",
+            "value": "Messy Bob"
+        },
+        {
+            "trait_type": "Head Accessory",
+            "value": "None"
+        },
+        {
+            "trait_type": "Imprint",
+            "value": "Hold"
+        },
+        {
+            "trait_type": "Other Accessory",
+            "value": "None"
+        },
+        {
+            "trait_type": "Outerwear",
+            "value": "None"
+        },
+        {
+            "trait_type": "Overhead",
+            "value": "None"
+        },
+        {
+            "trait_type": "Pet",
+            "value": "None"
+        },
+        {
+            "trait_type": "Top",
+            "value": "Long TS Orange"
+        }
+    ]
+}

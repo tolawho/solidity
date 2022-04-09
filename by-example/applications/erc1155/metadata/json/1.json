@@ -1,0 +1,75 @@
+{
+    "name": "WoP #1",
+    "description": "World of Polygon - WoP #1",
+    "image": "https://ipfs.io/ipfs/QmbEZW6wWJUiRq49DYWW4mckwZb79rc1PiAqHKHFKCAptq/1.png",
+    "attributes": [
+        {
+            "trait_type": "Aura",
+            "value": "None"
+        },
+        {
+            "trait_type": "Background",
+            "value": "Sky Blue"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Light Medium"
+        },
+        {
+            "trait_type": "Detail",
+            "value": "None"
+        },
+        {
+            "trait_type": "Eye Color",
+            "value": "Purple"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "None"
+        },
+        {
+            "trait_type": "Face Accessory",
+            "value": "None"
+        },
+        {
+            "trait_type": "Facial Expression",
+            "value": "Smile"
+        },
+        {
+            "trait_type": "Hair Color",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Hairstyle",
+            "value": "Messy Bob"
+        },
+        {
+            "trait_type": "Head Accessory",
+            "value": "None"
+        },
+        {
+            "trait_type": "Imprint",
+            "value": "None"
+        },
+        {
+            "trait_type": "Other Accessory",
+            "value": "None"
+        },
+        {
+            "trait_type": "Outerwear",
+            "value": "Bomber Jacket Black"
+        },
+        {
+            "trait_type": "Overhead",
+            "value": "None"
+        },
+        {
+            "trait_type": "Pet",
+            "value": "Squirrel Monkey"
+        },
+        {
+            "trait_type": "Top",
+            "value": "Long TS B&W"
+        }
+    ]
+}

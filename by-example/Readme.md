@@ -53,6 +53,7 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [] Iterable Mapping
 - [x] [ERC20](./applications/erc20/)
 - [x] [ERC721](./applications/erc721/)
+- [x] [ERC1155](./applications/erc1155/)
 - [] Precompute Contract Address with Create2
 - [] Minimal Proxy Contract
 - [] Upgradeable Proxy

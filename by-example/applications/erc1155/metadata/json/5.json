@@ -1,0 +1,75 @@
+{
+    "name": "WoP #5",
+    "description": "World of Polygon - WoP #5",
+    "image": "https://ipfs.io/ipfs/QmbEZW6wWJUiRq49DYWW4mckwZb79rc1PiAqHKHFKCAptq/5.png",
+    "attributes": [
+        {
+            "trait_type": "Aura",
+            "value": "None"
+        },
+        {
+            "trait_type": "Background",
+            "value": "Midnight Black"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Medium Dark"
+        },
+        {
+            "trait_type": "Detail",
+            "value": "None"
+        },
+        {
+            "trait_type": "Eye Color",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Eyewear",
+            "value": "None"
+        },
+        {
+            "trait_type": "Face Accessory",
+            "value": "None"
+        },
+        {
+            "trait_type": "Facial Expression",
+            "value": "Emotion"
+        },
+        {
+            "trait_type": "Hair Color",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Hairstyle",
+            "value": "Asymmetrical Cut"
+        },
+        {
+            "trait_type": "Head Accessory",
+            "value": "None"
+        },
+        {
+            "trait_type": "Imprint",
+            "value": "Hodl"
+        },
+        {
+            "trait_type": "Other Accessory",
+            "value": "None"
+        },
+        {
+            "trait_type": "Outerwear",
+            "value": "None"
+        },
+        {
+            "trait_type": "Overhead",
+            "value": "None"
+        },
+        {
+            "trait_type": "Pet",
+            "value": "None"
+        },
+        {
+            "trait_type": "Top",
+            "value": "Short TS Purple"
+        }
+    ]
+}
