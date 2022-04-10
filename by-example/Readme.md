@@ -50,7 +50,7 @@ Take a look at [solidity-by-example](https://solidity-by-example.org/). Cover by
 - [x] [Ether Wallet](./applications/ether-wallet/)
 - [] Multi Sig Wallet
 - [] Merkle Tree
-- [] Iterable Mapping
+- [x] [Iterable Mapping](./applications/iterable-mapping/)
 - [x] [ERC20](./applications/erc20/)
 - [x] [ERC721](./applications/erc721/)
 - [x] [ERC1155](./applications/erc1155/)
